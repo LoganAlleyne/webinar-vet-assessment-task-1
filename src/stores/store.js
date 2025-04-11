@@ -12,6 +12,7 @@ export const useStore = defineStore('main', {
     }),
 
     getters: {
+        // Filter videos based on the search query can be easily extended to include other filters
         filteredVideos: (state) => {
             if (state.searchQuery === '') {
                 return state.videos;
@@ -21,6 +22,7 @@ export const useStore = defineStore('main', {
             );
         },
 
+        // Dynamically set the Modal title based on the modal type
         modalTitle: (state) => {
             switch (state.modalType) {
                 case 'add':
@@ -51,16 +53,14 @@ export const useStore = defineStore('main', {
         },
 
         // Delete video
-        // Were this to be a full application, this would either edit the JSON file with something like node + fs
-        // or make a DELETE request to a REST API to delete the video 
+        // Were this to be a full application, this would either edit the JSON file with something like node + fs or make a DELETE request to a REST API to delete the video 
         deleteVideo(id) {
             this.videos = this.videos.filter(video => video.id !== id);
         },
 
 
         // Add video
-        // Were this to be a full application, this would either edit the JSON file with something like node + fs
-        // or make a POST request to a REST API to add the video
+        // Were this to be a full application, this would either edit the JSON file with something like node + fs or make a POST request to a REST API to add the video
         addVideo(video) {        
             // Generate a new ID for the video based on the highest existing ID
             // This is a simple way to generate a new ID, but in a real application, you would want to use a more robust method for generating unique IDs such as a UUID or a database auto-incrementing ID
@@ -72,8 +72,7 @@ export const useStore = defineStore('main', {
         },
 
         // Update video
-        // Were this to be a full application, this would either edit the JSON file with something like node + fs
-        // or make a PUT request to a REST API to update the video
+        // Were this to be a full application, this would either edit the JSON file with something like node + fs or make a PUT request to a REST API to update the video
         updateVideo(updatedVideo) {
             const index = this.videos.findIndex(video => video.id === updatedVideo.id);
             if (index !== -1) {
@@ -85,7 +84,6 @@ export const useStore = defineStore('main', {
         activateModal(type) {
             this.modalType = type;
             this.modalActive = true;
-            // document.body.style.overflow = 'hidden';
         },
 
         // Close modal
@@ -93,7 +91,6 @@ export const useStore = defineStore('main', {
             this.modalActive = false;
             this.modalType = '';
             this.currentVideo = null;
-            // document.body.style.overflow = 'auto';
         },
     },
 });

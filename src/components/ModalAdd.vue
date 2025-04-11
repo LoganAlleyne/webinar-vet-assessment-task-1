@@ -85,7 +85,7 @@
         <!-- Cancel Button -->
         <button
             class="bg-red-500 text-white p-2 py-2 rounded mt-26mover:bg-red-600 transition duration-200"
-            @click="store.deactivateModal()"  
+            @click="store.deactivateModal()"
         >
             Cancel
         </button>

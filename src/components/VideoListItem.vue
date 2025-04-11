@@ -18,14 +18,12 @@
                 <button
                     class="p-2 mb-2 flex-grow bg-blue-500 text-white rounded hover:bg-blue-600 hover:cursor-pointer transition duration-200"
                     @click="manipulateVideo('edit')"
-                    @keydown.enter="manipulateVideo('edit')"
                 >
                     <img :src="editIcon" alt="edit"/>
                 </button>
                 <button
                     class="p-2 mt-2 bg-red-500 text-white rounded hover:bg-red-600 hover:cursor-pointer transition duration-200"
                     @click="manipulateVideo('delete')"
-                    @keydown.enter="manipulateVideo('delete')"
                 >
                     <img :src="deleteIcon" alt="delete"/>
                 </button>
@@ -43,6 +41,7 @@
     // Define the store 
     const store = useStore()
 
+    // Define the props for the component
     const props = defineProps({
         video: {
             type: Object,

@@ -7,7 +7,7 @@
 		<SearchBar
 			class="flex-shrink-0" />
 
-		<!-- Add new video -->
+		<!-- Add new video button -->
 		<button
 			class="bg-blue-500 text-white p-2 py-2 rounded m-2 mb-4 hover:bg-blue-600 transition duration-200"
 			@click="store.activateModal('add')"
@@ -37,7 +37,6 @@
 	import Pagination from './components/Pagination.vue'
 	import Modal from './components/Modal.vue'
 	
-
 	// Define the store 
 	const store = useStore()
 
