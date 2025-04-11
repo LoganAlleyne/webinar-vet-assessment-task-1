@@ -1,0 +1,250 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to Veterinary Science",
+        "slug": "introduction-to-veterinary-science",
+        "description": "An overview of veterinary science and its importance.",
+        "video_length": "3m 15s",
+        "created_at": "2021-01-01"
+    },
+    {
+        "id": 2,
+        "name": "Animal Anatomy Basics",
+        "slug": "animal-anatomy-basics",
+        "description": "Learn the basics of animal anatomy.",
+        "video_length": "4m 20s",
+        "created_at": "2021-01-02"
+    },
+    {
+        "id": 3,
+        "name": "Understanding Pet Nutrition",
+        "slug": "understanding-pet-nutrition",
+        "description": "A guide to proper nutrition for pets.",
+        "video_length": "5m 10s",
+        "created_at": "2021-01-03"
+    },
+    {
+        "id": 4,
+        "name": "Common Pet Diseases",
+        "slug": "common-pet-diseases",
+        "description": "An overview of common diseases in pets.",
+        "video_length": "6m 5s",
+        "created_at": "2021-01-04"
+    },
+    {
+        "id": 5,
+        "name": "Vaccination Essentials",
+        "slug": "vaccination-essentials",
+        "description": "The importance of vaccinations for pets.",
+        "video_length": "3m 45s",
+        "created_at": "2021-01-05"
+    },
+    {
+        "id": 6,
+        "name": "First Aid for Pets",
+        "slug": "first-aid-for-pets",
+        "description": "Basic first aid techniques for pets.",
+        "video_length": "4m 30s",
+        "created_at": "2021-01-06"
+    },
+    {
+        "id": 7,
+        "name": "Dog Training Tips",
+        "slug": "dog-training-tips",
+        "description": "Effective tips for training your dog.",
+        "video_length": "5m 25s",
+        "created_at": "2021-01-07"
+    },
+    {
+        "id": 8,
+        "name": "Cat Behavior Explained",
+        "slug": "cat-behavior-explained",
+        "description": "Understanding the behavior of cats.",
+        "video_length": "6m 15s",
+        "created_at": "2021-01-08"
+    },
+    {
+        "id": 9,
+        "name": "Exotic Pet Care",
+        "slug": "exotic-pet-care",
+        "description": "Caring for exotic pets.",
+        "video_length": "7m 10s",
+        "created_at": "2021-01-09"
+    },
+    {
+        "id": 10,
+        "name": "Senior Pet Care",
+        "slug": "senior-pet-care",
+        "description": "Tips for taking care of senior pets.",
+        "video_length": "4m 50s",
+        "created_at": "2021-01-10"
+    },
+    {
+        "id": 11,
+        "name": "Puppy Socialization",
+        "slug": "puppy-socialization",
+        "description": "The importance of socializing puppies.",
+        "video_length": "3m 40s",
+        "created_at": "2021-01-11"
+    },
+    {
+        "id": 12,
+        "name": "Feline Nutrition",
+        "slug": "feline-nutrition",
+        "description": "A guide to proper nutrition for cats.",
+        "video_length": "5m 30s",
+        "created_at": "2021-01-12"
+    },
+    {
+        "id": 13,
+        "name": "Pet Dental Care",
+        "slug": "pet-dental-care",
+        "description": "How to maintain your pet's dental health.",
+        "video_length": "4m 15s",
+        "created_at": "2021-01-13"
+    },
+    {
+        "id": 14,
+        "name": "Emergency Preparedness for Pets",
+        "slug": "emergency-preparedness-for-pets",
+        "description": "Preparing for emergencies with your pets.",
+        "video_length": "6m 20s",
+        "created_at": "2021-01-14"
+    },
+    {
+        "id": 15,
+        "name": "Pet Grooming Basics",
+        "slug": "pet-grooming-basics",
+        "description": "Learn the basics of grooming your pet.",
+        "video_length": "5m 45s",
+        "created_at": "2021-01-15"
+    },
+    {
+        "id": 16,
+        "name": "Understanding Pet Behavior",
+        "slug": "understanding-pet-behavior",
+        "description": "A guide to understanding your pet's behavior.",
+        "video_length": "6m 10s",
+        "created_at": "2021-01-16"
+    },
+    {
+        "id": 17,
+        "name": "Pet Adoption Tips",
+        "slug": "pet-adoption-tips",
+        "description": "Tips for adopting a new pet.",
+        "video_length": "4m 25s",
+        "created_at": "2021-01-17"
+    },
+    {
+        "id": 18,
+        "name": "Exercising Your Pet",
+        "slug": "exercising-your-pet",
+        "description": "The importance of exercise for pets.",
+        "video_length": "5m 35s",
+        "created_at": "2021-01-18"
+    },
+    {
+        "id": 19,
+        "name": "Pet Safety at Home",
+        "slug": "pet-safety-at-home",
+        "description": "How to ensure your home is safe for pets.",
+        "video_length": "6m 5s",
+        "created_at": "2021-01-19"
+    },
+    {
+        "id": 20,
+        "name": "Traveling with Pets",
+        "slug": "traveling-with-pets",
+        "description": "Tips for traveling with your pets.",
+        "video_length": "4m 50s",
+        "created_at": "2021-01-20"
+    },
+    {
+        "id": 21,
+        "name": "Pet Insurance Explained",
+        "slug": "pet-insurance-explained",
+        "description": "Understanding pet insurance and its benefits.",
+        "video_length": "5m 15s",
+        "created_at": "2021-01-21"
+    },
+    {
+        "id": 22,
+        "name": "Pet Training Myths",
+        "slug": "pet-training-myths",
+        "description": "Debunking common pet training myths.",
+        "video_length": "3m 55s",
+        "created_at": "2021-01-22"
+    },
+    {
+        "id": 23,
+        "name": "Understanding Dog Breeds",
+        "slug": "understanding-dog-breeds",
+        "description": "A guide to different dog breeds and their characteristics.",
+        "video_length": "5m 40s",
+        "created_at": "2021-01-23"
+    },
+    {
+        "id": 24,
+        "name": "Pet-Friendly Home Design",
+        "slug": "pet-friendly-home-design",
+        "description": "Designing a home that is safe and comfortable for pets.",
+        "video_length": "6m 30s",
+        "created_at": "2021-01-24"
+    },
+    {
+        "id": 25,
+        "name": "Pet Loss and Grief",
+        "slug": "pet-loss-and-grief",
+        "description": "Coping with the loss of a pet.",
+        "video_length": "4m 10s",
+        "created_at": "2021-01-25"
+    },
+    {
+        "id": 26,
+        "name": "Pet-Friendly Gardening",
+        "slug": "pet-friendly-gardening",
+        "description": "Creating a garden that is safe for pets.",
+        "video_length": "5m 50s",
+        "created_at": "2021-01-26"
+    },
+    {
+        "id": 27,
+        "name": "Understanding Pet Allergies",
+        "slug": "understanding-pet-allergies",
+        "description": "A guide to pet allergies and their management.",
+        "video_length": "6m 40s",
+        "created_at": "2021-01-27"
+    },
+    {
+        "id": 28,
+        "name": "Pet Photography Tips",
+        "slug": "pet-photography-tips",
+        "description": "Tips for taking great photos of your pets.",
+        "video_length": "4m 55s",
+        "created_at": "2021-01-28"
+    },
+    {
+        "id": 29,
+        "name": "Understanding Pet Microchips",
+        "slug": "understanding-pet-microchips",
+        "description": "The importance of microchipping your pet.",
+        "video_length": "5m 25s",
+        "created_at": "2021-01-29"
+    },
+    {
+        "id": 30,
+        "name": "Pet-Friendly Travel Destinations",
+        "slug": "pet-friendly-travel-destinations",
+        "description": "Top travel destinations for pet owners.",
+        "video_length": "6m 15s",
+        "created_at": "2021-01-30"
+    },
+    {
+        "id": 31,
+        "name": "Pet Behavior Training",
+        "slug": "pet-behavior-training",
+        "description": "Training techniques for common pet behaviors.",
+        "video_length": "5m 35s",
+        "created_at": "2021-01-31"
+    }   
+]
